@@ -1,0 +1,48 @@
+{
+	"author": {
+		"name": "Baptiste Pillot",
+		"email": "baptiste@pillot.fr"
+	},
+	"dependencies": {
+		"@itrocks/action": "latest",
+		"@itrocks/core-responses": "latest",
+		"@itrocks/route": "latest",
+		"pdfkit": "^0.15",
+		"svg-to-pdfkit": "^0.1"
+	},
+	"description": "@Required decorator to enforce mandatory properties in data validation",
+	"devDependencies": {
+		"typescript": "~5.6"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"exports": "./cjs/required.js",
+	"homepage": "https://it.rocks",
+	"files": [
+		"LICENSE",
+		"README.md",
+		"cjs/*",
+		"!*.map"
+	],
+	"keywords": [
+		"backend",
+		"decorator",
+		"it.rocks",
+		"mandatory",
+		"property",
+		"required",
+		"validation"
+	],
+	"license": "ISC",
+	"name": "@itrocks/required",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/itrocks-ts/required.git"
+	},
+	"scripts": {
+		"build": "tsc -p tsconfig.json"
+	},
+	"types": "./cjs/required.d.ts",
+	"version": "0.0.1"
+}
