@@ -41,5 +41,5 @@
 		"build": "tsc -p tsconfig.json"
 	},
 	"types": "./cjs/required.d.ts",
-	"version": "0.0.2"
+	"version": "0.0.3"
 }

@@ -3,7 +3,6 @@ import { decorate, decoratorOf } from '@itrocks/decorator/property'
 
 const REQUIRED = Symbol('required')
 
-export default Required
 export function Required<T extends object>(value = true)
 {
 	return decorate<T>(REQUIRED, value)
