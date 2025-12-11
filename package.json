@@ -28,6 +28,7 @@
 		"it.rocks",
 		"mandatory",
 		"property",
+		"required decorator",
 		"required",
 		"validation"
 	],
@@ -41,5 +42,5 @@
 		"build": "tsc"
 	},
 	"types": "./cjs/required.d.ts",
-	"version": "0.0.6"
+	"version": "0.0.7"
 }
